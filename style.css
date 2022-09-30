@@ -1,6 +1,14 @@
 #sidebar{
-  position: fixed;
+
+  float: right;
   top: 50px;
   right: 50px;
   padding: 20px;
+}
+#content{
+  float: left;
+  width: 1000px;
+}
+#title{
+  text-align: center;
 }
