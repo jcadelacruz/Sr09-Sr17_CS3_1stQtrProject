@@ -20,20 +20,20 @@ a{
   padding: 20px;
 }
 body{
-  background: #05021c url("black.png");
+  background: #05021c url("imgs/black.png");
   color: white;
   font-family:monaco,optima,mono-space;
   padding: 50px;
 }
 #availabilityLink{
-  background: #421c06 url("orange.png");
+  background: #421c06 url("imgs/orange.png");
 }
 #tasteLink{
-  background: #380404 url("red.png");
+  background: #380404 url("imgs/red.png");
 }
 #residueLink{
-  background: #0c2602 url("green.png");
+  background: #0c2602 url("imgs/green.png");
 }
 #conclusionLink{
-  background: #03102b url("blue.png");
+  background: #03102b url("imgs/blue.png");
 }

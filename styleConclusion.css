@@ -1,0 +1,5 @@
+body, a{
+  background: #05021c url("imgs/black.png");
+  color: white;
+  font-family:monaco,optima,mono-space;
+}
