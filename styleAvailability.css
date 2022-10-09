@@ -1,3 +1,14 @@
+body, a{
+  background: #05021c url("black.png");
+  color: white;
+  font-family:monaco,optima,mono-space;
+}
+table{
+  margin-bottom: 20px;
+}
+img{
+  height: 40px;
+}
 td{
   border: 1px solid black;
 }

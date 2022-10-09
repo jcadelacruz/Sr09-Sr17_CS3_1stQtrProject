@@ -1,14 +1,39 @@
-#sidebar{
-
-  float: right;
-  top: 50px;
-  right: 50px;
-  padding: 20px;
-}
-#content{
-  float: left;
-  width: 1000px;
-}
 #title{
   text-align: center;
+}
+div#toc > table{
+  border: 3px solid #00020f;
+  padding: 20px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
+  width: 90%;
+  text-align: center;
+}
+a{
+  color:white;
+}
+#toc table tr td{
+  box-sizing: border-box;
+  width: 45%;
+  padding: 20px;
+}
+body{
+  background: #05021c url("black.png");
+  color: white;
+  font-family:monaco,optima,mono-space;
+  padding: 50px;
+}
+#availabilityLink{
+  background: #421c06 url("orange.png");
+}
+#tasteLink{
+  background: #380404 url("red.png");
+}
+#residueLink{
+  background: #0c2602 url("green.png");
+}
+#conclusionLink{
+  background: #03102b url("blue.png");
 }

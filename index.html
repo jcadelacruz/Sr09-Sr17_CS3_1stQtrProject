@@ -8,12 +8,14 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+ 
   <div id=title>
    <h1>Best Snacks In The Universe</h1>
   </div>
+  
   <hr>
-  <span id="content">
-    
+  
+  <div>  
       <h2>Introduction</h2>
     <p>Snacks are practically essentials for the life of a pisay student. A good snack could make a bad day great when used properly. Of course, not all snacks are created equal. Some snacks are better than others. All in all, we need to find the best snacks to maximize enjoyment in pisay. </p>
     <p>Since having one snack for the rest of highschool would be irrational, we will be ranking 20 snacks.</p>
@@ -25,23 +27,32 @@
       <li>taste</li>
       <li>residue</li>
     </ul>
-  </span>
-  <span id="sidebar">
-    <table style="border: 1px solid black; border collapse: collapse;">
+  </div>
+  
+  <div id="toc">
+    <table>
 			<tr>
-        <th style="border-style: solid; border-width: 1px; border-color: black; padding: 10px;"><h2>-----Table of contents-----</h2></th>
+        <th colspan="2"><h4>Table of contents</h4></th>
       </tr>
+      
       <tr>
-				<th style="border-style: solid; border-width: 1px; border-color: black; padding: 10px;">
-          <ul>
-      <li><a href="availability.html">Availability</a></li>
-      <li><a href="taste.html">Taste</a></li>
-      <li><a href="residue.html">Residue</a></li>
-    </ul>
-        </th>
+		  	<td id="availabilityLink">
+          <a href="availability.html">Availability</a>
+        </td>
+        <td id="tasteLink">
+          <a href="taste.html">Taste</a>
+  </td>
       </tr>
-</table>
-  </span>
+      
+      <tr>
+        <td id="residueLink">
+          <a href="residue.html">Residue</a>
+        </td>
+        <td id="conclusionLink">
+          <a href="conclusion.html">Conclusion</a>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
-
 </html>
