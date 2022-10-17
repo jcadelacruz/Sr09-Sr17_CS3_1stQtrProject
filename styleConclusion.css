@@ -3,3 +3,28 @@ body, a{
   color: white;
   font-family:monaco,optima,mono-space;
 }
+table{
+  margin-bottom: 20px;
+}
+img{
+  height: 40px;
+}
+td{
+  border: 1px solid black;
+}
+td.yes{
+  background-color: #52ff52;
+}
+td.no{
+  background-color: #ff4747;
+}
+#outcome{
+  margin: 10px 0 0 0;
+}
+#outcome>td.yes{
+  background-color: #09c809;
+}
+#outcome>td.no{
+  background-color: #e01010;
+}
+
