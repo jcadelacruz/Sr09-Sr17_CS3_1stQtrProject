@@ -25,9 +25,11 @@ td.no{
 #outcome{
   margin: 10px 0 0 0;
 }
-#outcome>td.yes{
-  background-color: #09c809;
+td:not(tr.sides>td):not(.sides){
+  font-weight: lighter;
 }
-#outcome>td.no{
-  background-color: #e01010;
+#dataTable{
+  box-sizing: margin-box;
+  width: 100%;
+  overflow: auto;
 }

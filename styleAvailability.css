@@ -6,12 +6,8 @@ body, a{
 h1{
   color: orange;
 }
-
 table{
   margin-bottom: 20px;
-}
-img{
-  height: 40px;
 }
 td{
   border: 1px solid black;
@@ -30,4 +26,14 @@ td.no{
 }
 #outcome>td.no{
   background-color: #e01010;
+}
+#groceryJaden{
+  height: 30%;
+  width: 30%;
+  float: right;
+}
+#dataTable{
+  box-sizing: margin-box;
+  width: 100%;
+  overflow: auto;
 }
