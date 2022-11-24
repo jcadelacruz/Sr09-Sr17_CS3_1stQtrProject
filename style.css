@@ -25,6 +25,24 @@ body{
   font-family:monaco,optima,mono-space;
   padding: 50px;
 }
+aside{
+  float:right;
+  width: 40%;
+}
+#articleTwo{
+  float: left;
+  width: 60%;
+}
+aside iframe{
+  margin-bottom: 0;
+  box-sizing: content-box;
+  width: 90%;
+}
+aside h6{
+  margin-top: 0;
+  box-sizing: content-box;
+  width: 90%;
+}
 #availabilityLink{
   background: #421c06 url("imgs/orange.png");
 }
