@@ -1,7 +1,7 @@
 #title{
   text-align: center;
 }
-div#toc > table{
+nav > table{
   border: 3px solid #00020f;
   padding: 20px;
   color: white;
@@ -14,7 +14,7 @@ div#toc > table{
 a{
   color:white;
 }
-#toc table tr td{
+nav table tr td{
   box-sizing: border-box;
   width: 45%;
   padding: 20px;

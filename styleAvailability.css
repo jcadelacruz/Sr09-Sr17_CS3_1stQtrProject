@@ -44,7 +44,7 @@ td.no{
   clear: right;
   float: right;
 }
-#navigation{
+nav{
   position: absolute;
   bottom-left: 0px;
 }
