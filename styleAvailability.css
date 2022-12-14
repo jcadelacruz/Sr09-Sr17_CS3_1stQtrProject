@@ -1,7 +1,11 @@
+@font-face{
+  font-family: 'monqco';
+  src: url("DroidSansMono.ttf");
+}
 body, a{
   background: #05021c url("imgs/black.png");
   color: white;
-  font-family:monaco,optima,mono-space;
+  font-family:monqco,optima,mono-space;
 }
 h1{
   color: orange;
@@ -47,4 +51,74 @@ td.no{
 nav{
   position: absolute;
   bottom-left: 0px;
+}
+
+#cardCreamO{
+  width: 60%;
+  display: none;
+  background-color: rgba(225,225,225,0.1);
+  padding: 20px;
+}
+#cardCreamO h3{
+  display: inline-block;
+}
+#liCreamO:hover #cardCreamO{
+  display: block;
+}
+#liCreamO:hover>p{
+  color: orange;
+}
+#cardCreamOFacebook{
+  width: 40px;
+  height: 40px;
+  background-image: url("socmedSprites.jpg");
+  background-size: 422px 422px;
+  display: inline-block;
+  position: absolute;
+  right: 36.3%;
+}
+#cardCreamOInstagram{
+  width: 40px;
+  height: 40px;
+  background-image: url("socmedSprites.jpg");
+  background-size: 422px 422px;
+  background-position: 0 -43px;
+  display: inline-block;
+  position: absolute;
+  right: 41.3%;
+}
+
+#cardHansel{
+  width: 60%;
+  display: none;
+  background-color: rgba(225,225,225,0.1);
+  padding: 20px;
+}
+#cardHansel h3{
+  display: inline-block;
+}
+#liHansel:hover #cardHansel{
+  display: block;
+}
+#liHansel:hover>p{
+  color: orange;
+}
+#cardHanselFacebook{
+  width: 40px;
+  height: 40px;
+  background-image: url("socmedSprites.jpg");
+  background-size: 422px 422px;
+  display: inline-block;
+  position: absolute;
+  right: 36.3%;
+}
+#cardHanselInstagram{
+  width: 40px;
+  height: 40px;
+  background-image: url("socmedSprites.jpg");
+  background-size: 422px 422px;
+  background-position: 0 -43px;
+  display: inline-block;
+  position: absolute;
+  right: 41.3%;
 }

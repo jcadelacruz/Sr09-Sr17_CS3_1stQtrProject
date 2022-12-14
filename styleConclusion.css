@@ -1,7 +1,11 @@
+@font-face{
+  font-family: 'monqco';
+  src: url("DroidSansMono.ttf");
+}
 body, a{
   background: #05021c url("imgs/black.png");
   color: white;
-  font-family:monaco,optima,mono-space;
+  font-family:monqco,optima,mono-space;
 }
 table{
   margin-bottom: 20px;
