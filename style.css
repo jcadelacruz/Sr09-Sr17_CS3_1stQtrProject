@@ -5,6 +5,9 @@
 #title{
   text-align: center;
 }
+#disclaimer{
+  color: #ff5d52;
+}
 nav > table{
   border: 3px solid #00020f;
   padding: 20px;
