@@ -17,10 +17,10 @@ td{
   border: 1px solid black;
 }
 td.yes{
-  background-color: #52ff52;
+  background-color: #3d943d;
 }
 td.no{
-  background-color: #ff4747;
+  background-color: #aa4646;
 }
 #outcome{
   margin: 10px 0 0 0;
@@ -53,39 +53,50 @@ nav{
   bottom-left: 0px;
 }
 
-#cardCreamO{
-  width: 60%;
-  display: none;
+#card{
+  box-sizing: border-box;
+  width: 180px;
+  height: 60px;
   background-color: rgba(225,225,225,0.1);
+  padding: 0 20px;
+  transition: all .7s;
+  transition-delay: .3s;
+  overflow: hidden;
+  position: relative;
+}
+#card:hover{
+  display: block;
+  width: 800px;
+  height: 200px;
   padding: 20px;
 }
-#cardCreamO h3{
+#card:hover>*:not(h3){
+  display: block; 
+}
+#card h3{
   display: inline-block;
 }
-#liCreamO:hover #cardCreamO{
-  display: block;
-}
-#liCreamO:hover>p{
+#card:hover h3{
   color: orange;
 }
-#cardCreamOFacebook{
+.facebook{
   width: 40px;
   height: 40px;
-  background-image: url("socmedSprites.jpg");
+  background-image: url("imgs/socmedSprites.jpg");
   background-size: 422px 422px;
   display: inline-block;
   position: absolute;
-  right: 36.3%;
+  right: 70px;
 }
-#cardCreamOInstagram{
+.instagram{
   width: 40px;
   height: 40px;
-  background-image: url("socmedSprites.jpg");
+  background-image: url("imgs/socmedSprites.jpg");
   background-size: 422px 422px;
   background-position: 0 -43px;
   display: inline-block;
   position: absolute;
-  right: 41.3%;
+  right: 25px;
 }
 
 #cardHansel{
@@ -106,19 +117,9 @@ nav{
 #cardHanselFacebook{
   width: 40px;
   height: 40px;
-  background-image: url("socmedSprites.jpg");
+  background-image: url("imgs/socmedSprites.jpg");
   background-size: 422px 422px;
   display: inline-block;
   position: absolute;
-  right: 36.3%;
-}
-#cardHanselInstagram{
-  width: 40px;
-  height: 40px;
-  background-image: url("socmedSprites.jpg");
-  background-size: 422px 422px;
-  background-position: 0 -43px;
-  display: inline-block;
-  position: absolute;
-  right: 41.3%;
+  right: 38%;
 }
