@@ -53,30 +53,30 @@ nav{
   bottom-left: 0px;
 }
 
-#card{
+.card{
   box-sizing: border-box;
-  width: 180px;
+  width: 300px;
   height: 60px;
   background-color: rgba(225,225,225,0.1);
   padding: 0 20px;
   transition: all .7s;
-  transition-delay: .3s;
   overflow: hidden;
   position: relative;
+  margin-bottom: 10px;
 }
-#card:hover{
+.card:hover{
   display: block;
-  width: 800px;
+  width: 65%;
   height: 200px;
   padding: 20px;
 }
-#card:hover>*:not(h3){
+.card:hover>*:not(h3){
   display: block; 
 }
-#card h3{
+.card h3{
   display: inline-block;
 }
-#card:hover h3{
+.card:hover h3{
   color: orange;
 }
 .facebook{
@@ -98,28 +98,6 @@ nav{
   position: absolute;
   right: 25px;
 }
-
-#cardHansel{
-  width: 60%;
-  display: none;
-  background-color: rgba(225,225,225,0.1);
-  padding: 20px;
-}
-#cardHansel h3{
-  display: inline-block;
-}
-#liHansel:hover #cardHansel{
-  display: block;
-}
-#liHansel:hover>p{
-  color: orange;
-}
-#cardHanselFacebook{
-  width: 40px;
-  height: 40px;
-  background-image: url("imgs/socmedSprites.jpg");
-  background-size: 422px 422px;
-  display: inline-block;
-  position: absolute;
-  right: 38%;
+#hanselFacebook{
+  right:25px;
 }
