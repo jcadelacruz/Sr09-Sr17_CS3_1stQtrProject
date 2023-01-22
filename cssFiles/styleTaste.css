@@ -13,32 +13,6 @@ body{
 h1{
   color: red;
 }
-table{
-  margin-bottom: 20px;
-}
-img{
-  height: 40px;
-}
-td{
-  border: 1px solid black;
-}
-td.yes{
-  background-color: #52ff52;
-}
-td.no{
-  background-color: #ff4747;
-}
-#outcome{
-  margin: 10px 0 0 0;
-}
-td:not(tr.sides>td):not(.sides){
-  font-weight: lighter;
-}
-#dataTable{
-  box-sizing: margin-box;
-  width: 100%;
-  overflow: auto;
-}
 /*hover nav*/
 nav{
   content-box: border-box;
@@ -155,6 +129,36 @@ a{
 a:visited{
   color: white;
 }
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(ff,ff,ff,1);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cf5151;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #db1a1a;
+}
+/*scrollbar*/
+.authorSocMed{
+  display: inline-block;
+  background-color: rgba(225,225,225,0.4);
+  border-radius: 10px;
+  border: 2px solid #4a4a4a;
+  padding: 0 10px;
+}
 /*hover nav*/
 /*target tool*//*
 #tool{
@@ -250,3 +254,15 @@ a:visited{
   background-color: yellow;
 }
 /*target tool*/
+/*dataTable*/
+#dataTable, #dataTable tr *{
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
+  border: 2px solid #cf0808;
+  padding: 5px;
+}
+#dataTable tr *:first-child{
+  width: 20%;
+}
+/*dataTable*/

@@ -10,31 +10,6 @@ body{
 body{
   padding: 50px;
 }
-table{
-  margin-bottom: 20px;
-}
-img{
-  height: 40px;
-}
-td{
-  border: 1px solid black;
-}
-td.yes{
-  background-color: #52ff52;
-}
-td.no{
-  background-color: #ff4747;
-}
-#outcome{
-  margin: 10px 0 0 0;
-}
-#outcome>td.yes{
-  background-color: #09c809;
-}
-#outcome>td.no{
-  background-color: #e01010;
-}
-
 /*nav*/
 nav{
   content-box: border-box;
@@ -66,6 +41,7 @@ nav{
   text-align: center;
   vertical-align: center;
   margin-top: -15px; 
+  margin-left: 0;
 }
 #compass:hover>p{
   display: none;
@@ -157,8 +133,14 @@ a:visited{
   width: 70%;
   height: 120px;
   margin: 0 auto;
-  background-color: white;
-  transition: all 1s;
+  background-color: black;
+  color: black;
+  /*
+  background-image: url("../spoiler.png");
+  background-size: 593px 124px;
+  background-position: 0 -10px;
+  background-repeat: none;*/
+  transition: all 1s linear;
   display: block;
   text-align: center;
 }
@@ -167,12 +149,137 @@ a:visited{
   text-align: center;
 }
 .spoiler:hover{
-  background-color: rgba(0,0,0,0);
+  background: rgba(0,0,0,0) url('../imgs/transparent.png');
+  color: white;
 }
 /*spoiler*/ 
-section, footer{
-  text-indent: 20px;
+p{
+  margin-left: 20px;
+}
+.italic{
+  font-style: italic;
+}
+.big{
+  font-size: 30px;
+  font-weight: bold;
+}
+#authorsNotes>h4{
+  text-align: left;
+}
+.twitter{
+  width: 80px;
+  height: 80px;
+  background-image: url("../imgs/socmedSprites.png");
+  background-size: 844px 844px;
+  background-position: -86px 0;
+  display: inline-block;
+  position: relative;
+  left: 320px;
+}
+.facebook{
+  width: 80px;
+  height: 80px;
+  background-image: url("../imgs/socmedSprites.png");
+  background-size: 844px 844px;
+  display: inline-block;
+  position: relative;
+  left: 50px;
+}
+.instagram{
+  width: 80px;
+  height: 80px;
+  background-image: url("../imgs/socmedSprites.png");
+  background-size: 844px 844px;
+  background-position: 0 -86px;
+  display: inline-block;
+  position: relative;
+  left: 230px;
+}
+.discord{
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  background-image: url("../imgs/socmedSprites.png");
+  background-size: 844px 844px;
+  background-position: -86px -86px;
+  display: inline-block;
+  position: relative;
+  left: 140px;
+  overflow: clip;
+  border: none;
+}/*
+.discord:hover{
+  width: 240px;
+  background-size: 8440px 8440px;
+  background-position: -860px -860px;
+  color: white;
+}*/
+.youtube{
+  width: 80px;
+  height: 80px;
+  background-image: url("../imgs/socmedSprites.png");
+  background-size: 844px 844px;
+  background-position: 0 -172px;
+  display: inline-block;
+  position: relative;
+  left: 230px;
 }
 
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
 
-  
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(ff,ff,ff,1);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6daecf;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2e9cdb;
+}
+/*scrollbar*/
+#tcenter{
+  text-align: center;
+}
+h1{
+  color:#6674cc;
+}
+ul{
+  margin-left: 20px;
+  list-style: none;
+}
+/*table*/
+#FinalTable{
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
+  border: 2px solid #6674cc;
+  padding: 5px;
+}
+tr *{
+  width: 25%;
+  border: 2px solid #6674cc;
+  padding: 5px;
+}
+/*table*/
+#picture{
+  width: 30%;
+  display: inline-block;
+  float: right;
+}
+.pic{
+  display: inline-block
+}
+.short{
+  width: 50%;
+}

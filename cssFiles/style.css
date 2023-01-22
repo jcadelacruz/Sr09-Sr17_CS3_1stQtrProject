@@ -102,6 +102,37 @@ aside h6{
   box-sizing: content-box;
   width: 90%;
 }
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(ff,ff,ff,1);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bac8cf;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #abc9db;
+}
+/*scrollbar*/
+.authorSocMed{
+  display: inline-block;
+  background-color: rgba(225,225,225,0.4);
+  border-radius: 10px;
+  border: 2px solid #4a4a4a;
+  padding: 0 10px;
+  margin-top: 10px;
+}
 
 /*https://www.urc.com.ph/products/philippines/ph-jack-n-jill?ref=home_products
 https://www.rebisco.com.ph/

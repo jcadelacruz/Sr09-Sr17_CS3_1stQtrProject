@@ -154,3 +154,45 @@ a:visited{
   color: white;
 }
 /*nav*/
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(ff,ff,ff,1);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #388534;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f7a16;
+}
+/*scrollbar*/
+.authorSocMed{
+  display: inline-block;
+  background-color: rgba(225,225,225,0.4);
+  border-radius: 10px;
+  border: 2px solid #4a4a4a;
+  padding: 0 10px;
+}
+/*resTable*/
+#resTable, #resTable tr *{
+  margin: 20px auto;
+  width: 90%;
+  border-collapse: collapse;
+  border: 2px solid green;
+  padding: 5px;
+}
+#resTable tr *:first-child{
+  width: 20%;
+}
+/*resTable*/

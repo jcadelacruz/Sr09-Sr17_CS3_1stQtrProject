@@ -20,6 +20,22 @@ td{
   border: 1px solid black;
 }
 td.yes{
+  background-color: #de802f;
+}
+td.no{
+  background-color: #1c0f0c;
+}
+#outcome{
+  margin: 10px 0 0 0;
+}/*
+#outcome>td.yes{
+  background-color: #de7c26;#946e3d
+}
+#outcome>td.no{
+  background-color: #261603;
+}
+/*
+td.yes{
   background-color: #3d943d;
 }
 td.no{
@@ -42,18 +58,18 @@ td.no{
 }
 
 /* Track */
-table ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: rgb(ff,ff,ff,1);
 }
  
 /* Handle */
-table ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: #ce9550;
   border-radius: 10px;
 }
 
 /* Handle on hover */
-table ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background: #db811a;
 }
 /*scrollbar*/
@@ -61,11 +77,6 @@ table ::-webkit-scrollbar-thumb:hover {
   height: 30%;
   width: 30%;
   float: right;
-}
-#dataTable{
-  box-sizing: margin-box;
-  width: 67%;
-  overflow: auto;
 }
 #cafeteria{
   width: 30%;
@@ -78,7 +89,6 @@ nav{
   position: absolute;
   bottom-left: 0px;
 }
-
 .card{
   box-sizing: border-box;
   width: 300px;
@@ -108,7 +118,7 @@ nav{
 .facebook{
   width: 40px;
   height: 40px;
-  background-image: url("../imgs/socmedSprites.jpg");
+  background-image: url("../imgs/socmedSprites.png");
   background-size: 422px 422px;
   display: inline-block;
   position: absolute;
@@ -117,7 +127,7 @@ nav{
 .instagram{
   width: 40px;
   height: 40px;
-  background-image: url("../imgs/socmedSprites.jpg");
+  background-image: url("../imgs/socmedSprites.png");
   background-size: 422px 422px;
   background-position: 0 -43px;
   display: inline-block;
@@ -244,6 +254,28 @@ a:visited{
   color: white;
 }
 /*nav*/
+.authorSocMed{
+  display: inline-block;
+  background-color: rgba(225,225,225,0.4);
+  border-radius: 10px;
+  border: 2px solid #4a4a4a;
+  padding: 0 10px;
+}
+/*dataTable*/
+#dataTable, #dataTable tr *{
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 2px solid orange;
+}
+#TableContainer{
+  padding: 5px 10px 5px 5px;
+  display: flex;
+  overflow: auto;
+}
+#dataTable tr *:first-child{
+  width: 20%;
+}
+/*dataTable*/
 @media screen and (max-width: 500px) {
   .card:hover{
     width: 80%;
