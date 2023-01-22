@@ -1,6 +1,12 @@
 @font-face{
   font-family: 'monqco';
-  src: url("DroidSansMono.ttf");
+  src: url("../DroidSansMono.ttf");
+}
+body{
+  background: #05021c url("../imgs/black.png");
+  color: white;
+  font-family:monqco,optima,mono-space;
+  padding: 50px;
 }
 #title{
   text-align: center;
@@ -8,7 +14,8 @@
 #disclaimer{
   color: #ff5d52;
 }
-nav > table{
+/*table of contents start*/
+nav>div{
   border: 3px solid #00020f;
   padding: 20px;
   color: white;
@@ -17,48 +24,73 @@ nav > table{
   box-sizing: content-box;
   width: 90%;
   text-align: center;
-}
-footer>div{
-  border: 3px solid #00020f;
-  padding: 20px;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: content-box;
-  width: 90%;
-  text-align: center;
-}
-#Availability div{
-  box-sizing: border-box;
-  border: 3px solid #00020f;
-  width: 45%;
-  height: 60px;
   display: block;
 }
 h5{
-  b
+  text-align: center;
+  vertical-align: center;
+}
+#Availability div{
+  box-sizing: border-box;
+  margin: 0;
+  width: 48%;
+  height: 60px;
+  display: inline-block;
+  position: flex;
+  justify-content: center;
+  background: #421c06 url("../imgs/orange.png");
+}
+#Taste div{
+  box-sizing: border-box;
+  margin: 0;
+  width: 48%;
+  height: 60px;
+  display: inline-block;
+  position: flex;
+  justify-content: center;
+  background: #380404 url("../imgs/red.png");
+}
+#Residue div{
+  box-sizing: border-box;
+  margin: 0;
+  width: 48%;
+  height: 60px;
+  display: inline-block;
+  position: flex;
+  justify-content: center;
+  background: #0c2602 url("../imgs/green.png");
+}
+#Conclusion div{
+  box-sizing: border-box;
+  margin: 0;
+  width: 48%;
+  height: 60px;
+  display: inline-block;
+  position: flex;
+  justify-content: center;
+  background: #03102b url("../imgs/blue.png");
+}
+nav>div a:hover div{
+  border: 3px solid #00020f;
 }
 a{
   color:white;
+  text-decoration: none;
 }
-nav table tr td{
-  box-sizing: border-box;
-  width: 45%;
-  padding: 20px;
-}
-body{
-  background: #05021c url("imgs/black.png");
+a:visited{
   color: white;
-  font-family:monqco,optima,mono-space;
-  padding: 50px;
 }
+/*table of contents end*/
 aside{
-  float:right;
+  position: absolute;
+  right: 0;
   width: 40%;
 }
 #articleTwo{
-  float: left;
+  position: relative;
+  left: 0;
   width: 60%;
+  margin-bottom: 45px;
 }
 aside iframe{
   margin-bottom: 0;
@@ -69,18 +101,6 @@ aside h6{
   margin-top: 0;
   box-sizing: content-box;
   width: 90%;
-}
-#availabilityLink{
-  background: #421c06 url("imgs/orange.png");
-}
-#tasteLink{
-  background: #380404 url("imgs/red.png");
-}
-#residueLink{
-  background: #0c2602 url("imgs/green.png");
-}
-#conclusionLink{
-  background: #03102b url("imgs/blue.png");
 }
 
 /*https://www.urc.com.ph/products/philippines/ph-jack-n-jill?ref=home_products
